@@ -9,9 +9,4 @@ ws.createServer({ server: httpServer }, aedes.handle);
 httpServer.listen(port, () => {
   console.log("websocket server listening on port ", port);
 });
-var http = require('http');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World!');
-}).listen(process.env.PORT ||8080);
