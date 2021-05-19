@@ -1,7 +1,7 @@
 {
   "name": "A MQTT broker using mosca",
   "description": "A MQTT broker over websockets",
-  "repository": "https://github.com/berkedel/mqttest",
+  "repository": "https://github.com/DemoRP/DemoRP.github.io",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "mqtt", "mosca"]
 }
