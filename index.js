@@ -6,7 +6,7 @@ const port = process.env.PORT || 80;
 
 ws.createServer({ server: httpServer }, aedes.handle);
 
-httpServer.listen(port, () => {
+httpServer.listen(port, (req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('Hello World!');
 });
