@@ -5,3 +5,9 @@ const port = process.env.PORT || 1883;
 server.listen(port, function () {
   console.log('server started and listening on port ', port)
 })
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(process.env.PORT || 80);
