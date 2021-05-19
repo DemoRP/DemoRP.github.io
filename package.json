@@ -4,7 +4,7 @@
   "description": "MQTT broker demo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/berkedel/mqttest.git"
+    "url": "https://github.com/DemoRP/DemoRP.github.io"
   },
   "main": "index.js",
   "scripts": {
